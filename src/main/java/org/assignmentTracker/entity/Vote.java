@@ -2,9 +2,11 @@ package org.assignmentTracker.entity;
 
 public class Vote {
 
+    //Variables
     private int id;
     private User voter;
 
+    //constructor
     private Vote() {}
 
     public int getId() {
