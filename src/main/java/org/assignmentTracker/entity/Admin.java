@@ -7,7 +7,10 @@ public class Admin {
     private User user;
 
 
-    public Admin() {
+    public Admin(Builder builder) {
+        this.id = builder.id;
+        this.assignment = builder.assignment;
+        this.user = builder.user;
     }
     public static class Builder {
 
@@ -29,18 +32,6 @@ public class Admin {
         public Builder setAssignment(Assignment assignment) {
             this.assignment = assignment;
             return this;
-        }
-
-
-
-        public Assignment build() {
-
-            Admin admin = new Admin();
-            admin.id = this.id;
-            admin.assignment = this.assignment;
-            admin.user = this.user;
-
-            return assignment;
         }
 
         public Builder copy(Admin admin) {

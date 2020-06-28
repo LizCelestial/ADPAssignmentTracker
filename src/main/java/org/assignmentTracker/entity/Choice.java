@@ -6,11 +6,17 @@ public class Choice {
     private String name;
     private List < Vote > votes;
 
+    public Choice(Builder builder){
+        this.id = builder.id;
+        this.name = builder.name;
+        this.votes = builder.votes;
+    }
+
     public static class Builder {
 
         private int id;
         private String name;
-        private List < Vote > votes;
+        private List <Vote> votes;
 
         public Builder setId(int id) {
             this.id = id;
@@ -35,15 +41,6 @@ public class Choice {
             this.votes = choice.votes;
             return this;
         }
-        public Choice build() {
-            Choice choice = new Choice();
-            choice.id = this.id;
-            choice.name = this.name;
-            choice.votes = this.votes;
-
-            return build();
-        }
-
 
         public Choice build(){return new Choice(this);}
     }
