@@ -6,6 +6,13 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+/*
+@author Byron Cloete
+StudNo: 214189872
+Date: 29 June 2020
+Desc: Test for User Factory
+ */
+
 import java.util.Date;
 
 public class UserFactoryTest {
