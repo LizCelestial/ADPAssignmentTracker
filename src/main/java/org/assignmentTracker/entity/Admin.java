@@ -1,5 +1,11 @@
 package org.assignmentTracker.entity;
-
+/**
+ * Author: Brandon
+ * Domain: Admin
+ * Date: 29 July 2020
+ * Version 0.1
+ *
+ * */
 public class Admin {
 
     private int id;
