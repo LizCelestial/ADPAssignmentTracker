@@ -22,6 +22,7 @@
     <list default="true" id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 =======
       <change afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Group.java" afterDir="false" />
@@ -29,6 +30,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
 >>>>>>> f2f0901a6455489251e37fac0db16d654039aff1
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentTracker.iml" afterDir="false" />
+>>>>>>> 1025632e9543e5a1fcc41be539bc84bbdbf0b3f1
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/UserFactory.java" afterDir="false" />
@@ -115,7 +122,11 @@
       <workItem from="1593340704491" duration="1695000" />
       <workItem from="1593343821062" duration="1208000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2f0901a6455489251e37fac0db16d654039aff1
+=======
+      <workItem from="1593508204419" duration="769000" />
+>>>>>>> 1025632e9543e5a1fcc41be539bc84bbdbf0b3f1
 =======
       <workItem from="1593430860381" duration="2172000" />
 >>>>>>> 8bc431eda87ffa0ac333458e7b59cd0cc788aec5
@@ -149,6 +160,7 @@
     <state x="729" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1592826828451" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="531" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593372876260">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -161,10 +173,15 @@
     <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1593293549121" />
 >>>>>>> f2f0901a6455489251e37fac0db16d654039aff1
 =======
+    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593508373442">
+      <screen x="0" y="0" width="1366" height="728" />
+>>>>>>> 1025632e9543e5a1fcc41be539bc84bbdbf0b3f1
+=======
     <state x="746" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593430921967">
       <screen x="0" y="0" width="1920" height="1040" />
+>>>>>>> 8bc431eda87ffa0ac333458e7b59cd0cc788aec5
     </state>
-    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593338785990" />
+    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593508373442" />
     <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1593293549121" />
     <state x="746" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593430921967" />
     <state x="550" y="115" key="CommitChangelistDialog2" timestamp="1593448287471">
@@ -194,11 +211,18 @@
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593116224927" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1593380946525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593380946525" />
 =======
+=======
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1593508205139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593508205139" />
+>>>>>>> 1025632e9543e5a1fcc41be539bc84bbdbf0b3f1
 =======
     <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1593432441119">
       <screen x="0" y="0" width="1920" height="1040" />
