@@ -16,7 +16,8 @@ public class Admin {
         this.id = builder.id;
         this.assignment = builder.assignment;
         this.user = builder.user;
-    }
+    }//end of constructor
+
     public static class Builder {
 
         private int id;
@@ -49,7 +50,7 @@ public class Admin {
 
         public Admin build(){return new Admin(this);}
 
-    }
+    }// end of builder class
 
 
 
@@ -73,4 +74,4 @@ public class Admin {
                 ", user=" + user +
                 '}';
     }
-}
+}//end of main class

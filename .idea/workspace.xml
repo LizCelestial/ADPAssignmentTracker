@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/AdminFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/util/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/util/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,6 +104,9 @@
       <workItem from="1593530266374" duration="60000" />
       <workItem from="1593530363977" duration="584000" />
       <workItem from="1593530975339" duration="364000" />
+      <workItem from="1593540712836" duration="3129000" />
+      <workItem from="1593549133457" duration="112000" />
+      <workItem from="1593549266743" duration="1250000" />
     </task>
     <servers />
   </component>
@@ -163,11 +165,11 @@
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state width="1397" height="178" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592823543215" />
-    <state x="388" y="110" key="SettingsEditor" timestamp="1593531212550">
+    <state x="388" y="110" key="SettingsEditor" timestamp="1593549242607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593116224927" />
-    <state x="388" y="110" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593531212550" />
+    <state x="388" y="110" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593549242607" />
     <state x="327" y="434" key="VCS.ChangelistChooser" timestamp="1593524861180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
