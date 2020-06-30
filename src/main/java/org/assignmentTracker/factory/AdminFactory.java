@@ -13,9 +13,8 @@ Desc: Test for Admin Factory
  */
 public class AdminFactory {
     public static Admin createAdmin(User user, Assignment assignment) {
-        int studNo = Helper.generateID(); // generates a random number to use for the admin id which is a student number
         Admin admin = new Admin.Builder().
-                setId(studNo). //sets admin id as student number
+                setId(user.getID()). //sets admin id as student number
                 setAssignment(assignment). // assign an assignment
                 setUser(user). //set user
                 build();

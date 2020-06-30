@@ -70,8 +70,8 @@ public class Admin {
     public java.lang.String toString() {
         return "Admin{" +
                 "id=" + id +
-                ", assignment=" + assignment +
                 ", user=" + user +
+                ", assignment=" + assignment +
                 '}';
     }
 }//end of main class
