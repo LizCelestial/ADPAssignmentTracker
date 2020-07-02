@@ -7,15 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AssignmentTracker" />
-        <module name="ADPAssignmentTracker" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-<<<<<<< HEAD
-      <module name="ADPAssignmentTracker" target="1.7" />
-=======
-      <module name="AssignmentTracker" target="1.7" />
->>>>>>> 1025632e9543e5a1fcc41be539bc84bbdbf0b3f1
-    </bytecodeTargetLevel>
   </component>
 </project>

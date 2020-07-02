@@ -1,4 +1,4 @@
-package org.assignmentTracker.factory;
+gitpackage org.assignmentTracker.factoryTest;
 
 import org.assignmentTracker.entity.Subject;
 import org.assignmentTracker.factory.SubjectFactory;
@@ -24,7 +24,7 @@ public class SubjectFactoryTest {
     @Test
     public void createSubject() {
 
-        //Date dates = new Date();
+        Date dates = new Date();
        Subject subject = SubjectFactory.createSubject("Applications Development Practice","ADP(362S)","DDD Chapter 1",dates);
        Assert.assertEquals(subject,subject);
        //System.out.println(subject);

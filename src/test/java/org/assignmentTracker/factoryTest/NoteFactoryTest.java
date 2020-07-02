@@ -1,12 +1,11 @@
-package org.assignmentTracker.factory;
+package org.assignmentTracker.factoryTest;
 
 import org.assignmentTracker.entity.Note;
 import org.assignmentTracker.entity.User;
-import org.assignmentTracker.util.Helper;
-import org.assignmentTracker.util.NoteFactory;
+import org.assignmentTracker.factory.NoteFactory;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import java.util.Date;
 
 /*
@@ -24,8 +23,9 @@ public class NoteFactoryTest {
 
     @Test
     public void createNote() {
-        //Date dateCreated = new Date();
-        Note note = NoteFactory.createNote("Chapter 1", "Summary", , dateCreated);
+        Date dateCreated = new Date();
+
+        Note note = NoteFactory.createNote("Chapter 1", "Summary", dateCreated);
         Assert.assertEquals(note, note);
     }
 }

@@ -11,20 +11,7 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
-=======
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
->>>>>>> f2f0901a6455489251e37fac0db16d654039aff1
-=======
-=======
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
-=======
->>>>>>> 1025632e9543e5a1fcc41be539bc84bbdbf0b3f1
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8.0_45" project-jdk-type="JavaSDK">
->>>>>>> 8bc431eda87ffa0ac333458e7b59cd0cc788aec5
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

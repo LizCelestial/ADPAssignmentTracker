@@ -14,14 +14,14 @@ import java.util.Date;
 
  public class NoteFactory {
 
-    public static Note createNote (String description, String text, User creator, Date dateCreated){
+    public static Note createNote (String description, String text, Date dateCreated){
         int noteID = Helper.generateID();
         Note note = new Note.Builder().
                 setId(noteID).
                 setDescription(description).
                 setText(text).
                 setDateCreated(dateCreated).
-                setCreator(creator).
+                //setCreator(creator).
                 build();
         return note;
     }
