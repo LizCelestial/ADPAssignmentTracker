@@ -1,4 +1,4 @@
-gitpackage org.assignmentTracker.factoryTest;
+package org.assignmentTracker.factoryTest;
 
 import org.assignmentTracker.entity.Subject;
 import org.assignmentTracker.factory.SubjectFactory;
