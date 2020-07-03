@@ -9,15 +9,13 @@ public class Helper {
     public static int generateID(){
         int min = 100000000;
         int max = 999999999;
-        int randomNum = ThreadLocalRandom.current().nextInt(min, max + 1);
-        return randomNum;
+        return ThreadLocalRandom.current().nextInt(min, max + 1);
     }
 
     public static long generateStudNum(){
         int min = 100000000;
         int max = 999999999;
-        long randomNum = Long.valueOf(ThreadLocalRandom.current().nextInt(min, max + 1));
-        return randomNum;
+        return (long) ThreadLocalRandom.current().nextInt(min, max + 1);
     }
 
 }

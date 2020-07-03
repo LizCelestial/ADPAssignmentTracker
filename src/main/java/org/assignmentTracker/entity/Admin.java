@@ -1,23 +1,23 @@
 package org.assignmentTracker.entity;
-/**
- * Author: Brandon
- * Domain: Admin
- * Date: 29 July 2020
- * Version 0.1
- *
- * */
+/*
+@author Brandon Villet
+StudNo: 214056791
+Date: 29 June 2020
+Desc: Admin class
+ */
 public class Admin {
 
-    private int id;
-    private Assignment assignment;
-    private User user;
+    private final int id;
+    private final Assignment assignment;
+    private final User user;
 
 
     public Admin(Builder builder) {
         this.id = builder.id;
         this.assignment = builder.assignment;
         this.user = builder.user;
-    }
+    }//end of constructor
+
     public static class Builder {
 
         private int id;
@@ -50,7 +50,7 @@ public class Admin {
 
         public Admin build(){return new Admin(this);}
 
-    }
+    }// end of builder class
 
 
 
@@ -70,8 +70,8 @@ public class Admin {
     public java.lang.String toString() {
         return "Admin{" +
                 "id=" + id +
-                ", assignment=" + assignment +
                 ", user=" + user +
+                ", assignment=" + assignment +
                 '}';
     }
-}
+}//end of main class
