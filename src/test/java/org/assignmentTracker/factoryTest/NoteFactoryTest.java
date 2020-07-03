@@ -29,8 +29,8 @@ public class NoteFactoryTest {
         Date date= new Date();
         User creator = UserFactory.createUser("Byron", "Cloete", "wordpass", "byroncloete7@gmail.com", date);
 
-        Note note = NoteFactory.createNote("Chapter 1", "Summary",creator, dateCreated);
-        Note note1 = NoteFactory.createNote("Chapter 2", "Summary2",creator ,dateCreated);
+        Note note = NoteFactory.createNote("Chapter 1", "Summary_01",creator, dateCreated);
+        Note note1 = NoteFactory.createNote("Chapter 1", "Summary_02",creator ,dateCreated);
         Assert.assertSame(note.getClass(),note1.getClass());
         Assert.assertEquals(creator,note1.getCreator());
     }
