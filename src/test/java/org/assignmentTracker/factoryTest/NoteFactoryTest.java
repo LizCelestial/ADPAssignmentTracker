@@ -25,7 +25,7 @@ public class NoteFactoryTest {
     public void createNote() {
         Date dateCreated = new Date();
 
-        Note note = NoteFactory.createNote("Chapter 1", "Summary", dateCreated);
+        Note note = NoteFactory.createNote("Chapter 01", "Summary", dateCreated);
         Assert.assertEquals(note, note);
     }
 }
