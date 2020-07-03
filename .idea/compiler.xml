@@ -9,5 +9,8 @@
         <module name="AssignmentTracker" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AssignmentTracker" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

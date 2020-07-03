@@ -1,8 +1,8 @@
 package org.assignmentTracker.factory;
 
 import org.assignmentTracker.entity.Note;
-import org.assignmentTracker.entity.User;
 import org.assignmentTracker.util.Helper;
+import org.assignmentTracker.entity.User;
 import java.util.Date;
 
  /*
@@ -14,14 +14,14 @@ import java.util.Date;
 
  public class NoteFactory {
 
-    public static Note createNote (String description, String text, Date dateCreated){
+    public static Note createNote (String description, String text,User creator, Date dateCreated){
         int noteID = Helper.generateID();
         Note note = new Note.Builder().
                 setId(noteID).
                 setDescription(description).
                 setText(text).
+                setCreator(creator).
                 setDateCreated(dateCreated).
-                //setCreator(creator).
                 build();
         return note;
     }

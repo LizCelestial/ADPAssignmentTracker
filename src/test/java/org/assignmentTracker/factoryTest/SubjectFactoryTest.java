@@ -25,9 +25,11 @@ public class SubjectFactoryTest {
     public void createSubject() {
 
         Date dates = new Date();
-       Subject subject = SubjectFactory.createSubject("Applications Development Practice","ADP(362S)","DDD Chapter 1",dates);
-       Assert.assertEquals(subject,subject);
-       //System.out.println(subject);
+        Subject subject = SubjectFactory.createSubject("Applications Development Practice","ADP(362S)","DDD Chapter 1",dates);
+        Subject subject1 = SubjectFactory.createSubject("Applications Development Theory","ADT(362S)","Agile Development Chapter 2",dates);
+        Assert.assertSame(subject, subject);
+        Assert.assertNotNull(subject);
+        Assert.assertTrue(subject!=subject1);
 
     }
 }
