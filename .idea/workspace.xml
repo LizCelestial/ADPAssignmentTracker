@@ -20,22 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/AdminFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/AdminFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/AdminFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Assignment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Assignment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Assignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Assignment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Note$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Note$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Note.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Subject$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Subject$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/User$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/User$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Vote$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Vote$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Vote.class" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/target/classes/org/assignmentTracker/entity/Vote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/ChoiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/ChoiceFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +53,13 @@
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="imzjka4l" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -104,6 +97,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.assignmentTracker.factoryTest" />
       <recent name="org.assignmentTracker.factory" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -115,7 +109,7 @@
       <recent name="C:\Users\Brandon\IdeaProjects\ADPAssignmentTracker\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdminFactoryTest.createAdmin">
+  <component name="RunManager" selected="JUnit.ChoiceFactoryTest">
     <configuration name="AdminFactoryTest.createAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ADPAssignmentTracker" />
       <extension name="coverage">
@@ -128,6 +122,22 @@
       <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.factoryTest.AdminFactoryTest" />
       <option name="METHOD_NAME" value="createAdmin" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChoiceFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.assignmentTracker.factoryTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.assignmentTracker.factoryTest" />
+      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.factoryTest.ChoiceFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
@@ -159,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChoiceFactoryTest" />
         <item itemvalue="JUnit.AdminFactoryTest.createAdmin" />
         <item itemvalue="JUnit.HelperTest.generateUserID" />
       </list>
@@ -198,12 +209,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="93" key="#Project_Structure" timestamp="1593531342487">
@@ -215,10 +227,14 @@
     </state>
     <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593345559482" />
     <state x="729" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1592826828451" />
-    <state x="746" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593430921967">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="479" y="224" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593886587328">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593338785990" />
+    <state x="479" y="224" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593886587328" />
+    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593884955593">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593884955593" />
     <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1593293549121" />
     <state x="746" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593430921967" />
     <state x="743" y="413" width="433" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593551771309">
@@ -229,9 +245,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="86" y="163" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593524937129" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1593529954346">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="526" y="192" key="FileChooserDialogImpl" timestamp="1593885802852">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="526" y="192" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593885802852" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593529954346" />
     <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1593554590771">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -274,17 +291,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="738" y="363" key="cloudConfig.PluginsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593530843294" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1593343824358">
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1593884670550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593343824358" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593884670550" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593530785640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593530785640" />
-    <state x="731" y="325" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593552855162">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="520" y="167" width="467" height="561" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593886590924">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="520" y="167" width="467" height="561" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1593886590924" />
     <state x="731" y="325" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593552855162" />
     <state x="691" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593529150703">
       <screen x="0" y="0" width="1920" height="1040" />
