@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ADPAssignmentTracker" target="1.7" />
       <module name="AssignmentTracker" target="1.7" />
     </bytecodeTargetLevel>
   </component>
