@@ -44,7 +44,7 @@ public class Task {
             return this;
         }
 
-        public Builder setStudents(List<Student> students) {
+        public Builder setStudents(long students) {
             this.students = students;
             return this;
         }
