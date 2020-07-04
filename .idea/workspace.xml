@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/ChoiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/ChoiceFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignmentTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentTracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/ChoiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/ChoiceFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

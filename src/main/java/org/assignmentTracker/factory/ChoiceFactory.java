@@ -14,6 +14,7 @@ public class ChoiceFactory {
     public Choice choiceFactory(String name, List<Vote> votes){
         int choiceID = Helper.generateID();
         Choice choice = new Choice.Builder()
+                            .setId(choiceID)
                             .setName(name)
                             .setVotes(votes)
                             .build();
