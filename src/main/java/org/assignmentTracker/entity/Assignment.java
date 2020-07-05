@@ -3,6 +3,12 @@ package org.assignmentTracker.entity;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author Claude De-Tchambila
+ * student number: 217035027
+ * Desc: Entity/Assignment object for assignment
+ * Date: 5 July 2020
+ */
 public class Assignment {
 
     private int id;
