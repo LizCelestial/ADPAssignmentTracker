@@ -94,7 +94,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HelperTest.generateVoteId">
+  <component name="RunManager" selected="JUnit.UserFactoryTest.createUser">
     <configuration name="AssignmentFactoryTest.createAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ADPAssignmentTracker" />
       <extension name="coverage">
@@ -143,6 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserFactoryTest.createUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ADPAssignmentTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.assignmentTracker.factoryTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.assignmentTracker.factoryTest" />
+      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.factoryTest.UserFactoryTest" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VoteFactoryTest.createVote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ADPAssignmentTracker" />
       <extension name="coverage">
@@ -161,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserFactoryTest.createUser" />
         <item itemvalue="JUnit.HelperTest.generateVoteId" />
         <item itemvalue="JUnit.HelperTest.generateAssignmentId" />
         <item itemvalue="JUnit.VoteFactoryTest.createVote" />
@@ -225,11 +242,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593948564842" />
-    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593948005551">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="746" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593982153829">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593948005551" />
     <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1593293549121" />
+    <state x="746" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1593982153829" />
     <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1593979756753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
